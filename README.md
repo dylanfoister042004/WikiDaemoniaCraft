@@ -9,5 +9,8 @@ Tech stack:
 - Placeholder backend (Firebase-ready)  
 
 Run:
+- npm install
+- npm run dev
 
 Build:
+- npm build
