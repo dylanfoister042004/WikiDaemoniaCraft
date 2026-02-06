@@ -8,7 +8,7 @@ Tech stack:
 - React Router  
 - Placeholder backend (Firebase-ready)  
 
-##Commands
+## Commands
 
 ### Run
 
