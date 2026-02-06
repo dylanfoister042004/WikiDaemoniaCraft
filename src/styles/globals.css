@@ -1,0 +1,102 @@
+/* -------- GLOBAL RESET -------- */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3a3a55 #0a0a0f;
+}
+
+/* Chrome/Edge scrollbars */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+*::-webkit-scrollbar-thumb {
+  background: #3a3a55;
+  border-radius: 4px;
+}
+
+/* -------- BACKDROP GLASS PANELS -------- */
+.glass-panel {
+  background: rgba(23, 23, 35, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+/* -------- PAGE HEADERS -------- */
+.page-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #b9b9ff;
+  text-shadow: 0px 0px 12px rgba(107, 75, 255, 0.5);
+  margin-bottom: 1.5rem;
+}
+
+/* -------- LINK STYLE -------- */
+.page-link {
+  color: #b9b9ff;
+  transition: 0.2s ease;
+}
+.page-link:hover {
+  color: #ffffff;
+  text-shadow: 0px 0px 10px rgba(166, 139, 255, 0.6);
+}
+
+/* -------- BUTTONS -------- */
+.button-primary {
+  background: #6b4bff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+.button-primary:hover {
+  background: #7e5eff;
+  box-shadow: 0px 0px 12px rgba(120, 90, 255, 0.7);
+}
+
+/* -------- INPUTS -------- */
+.input-dark {
+  background: rgba(15, 15, 25, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+}
+.input-dark:focus {
+  border-color: #6b4bff;
+  box-shadow: 0px 0px 10px rgba(107, 75, 255, 0.4);
+}
+
+/* -------- TIPTAP EDITOR STYLING -------- */
+.tiptap-editor {
+  background: rgba(15, 15, 25, 0.75);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  min-height: 400px;
+  color: #f5f5ff;
+}
+
+.tiptap-editor h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.tiptap-editor h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+.tiptap-editor p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7rem;
+}
+.tiptap-editor ul {
+  padding-left: 1.4rem;
+  list-style-type: disc;
+}
+.tiptap-editor a {
+  color: #8f7eff;
+}
