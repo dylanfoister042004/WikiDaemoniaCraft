@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Fantasy Background Gradient */
+body {
+  @apply bg-gradient-to-b from-[#0a0a0f] via-[#0d0d16] to-[#09090c] text-gray-200;
+  background-attachment: fixed;
+}
+
+/* Shadow Glow Text Style */
+.glow-text {
+  text-shadow: 0 0 8px #5a4fff, 0 0 12px #7d68ff;
+}
+
+/* Solo Leveling Black/Purple Panels */
+.panel {
+  @apply bg-[#0d0d14]/80 backdrop-blur-md border border-[#2a1e55] rounded-xl shadow-lg;
+}
