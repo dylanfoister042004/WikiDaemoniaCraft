@@ -9,7 +9,7 @@ Tech stack:
 - Placeholder backend (Firebase-ready)  
 
 Run:
-npm install git add package-lock.json git commit -m "Add package-lock.json for CI" git push
+- npm install
 - npm run dev
 
 Build:
